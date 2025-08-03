@@ -1,11 +1,11 @@
 import React from 'react'
 import Navbar from "../components/header/Navbar";
+import StandardLayout from '../components/layout/StandardLayout';
 
 function Home() {
   return (
     <div>
-        <Navbar />
-        Home
+        <StandardLayout>Home</StandardLayout>
     </div>
   );
 }
